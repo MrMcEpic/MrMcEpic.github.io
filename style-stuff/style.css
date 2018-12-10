@@ -33,12 +33,9 @@ body {
   background-image: url("./hypnotize_bg.png");
 }
 
-.links{
-  font-size: 150%;
-}
-
 .links li{
-  margin: 20px;
+  margin: 30px;
+  font-size: 150%;
 }
 
 .links ul{
@@ -56,6 +53,6 @@ body {
 }
 
 .links a:hover{
-  background: white;
+  background: transparent;
   color: red;
 }
