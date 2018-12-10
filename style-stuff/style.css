@@ -14,17 +14,49 @@
   font-family: Arial;
 }
 
-#formal {
-  font-family: cursive;
+.formal {
+  font-family: "Brush Script MT", cursive;
   text-transform: capitalize;
 }
 
-.nobul {
-  list-style: none;
-  padding-left: 0;
+#inttop {
+  color: red;
+  border: 3px solid currentColor;
+  border-radius: 15px;
+  width: 100px;
+  margin: 0 auto;
 }
+
 
 body {
   text-align: center;
   background-image: url("./hypnotize_bg.png");
+}
+
+.links{
+  font-size: 150%;
+}
+
+.links li{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.links ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.links a{
+  background: red;
+  color: white;
+  border: 1px solid currentColor;
+  padding: 3px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.links a:hover{
+  background: white;
+  color: red;
 }
