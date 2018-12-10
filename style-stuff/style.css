@@ -2,14 +2,6 @@
   font-weight: bold;
 }
 
-.green {
-  color: green;
-}
-
-.purple {
-  color: purple;
-}
-
 .arial {
   font-family: Arial;
 }
@@ -23,18 +15,18 @@
   color: red;
   border: 3px solid currentColor;
   border-radius: 15px;
-  width: 100px;
+  width: 200px;
   margin: 0 auto;
 }
 
-
 body {
   text-align: center;
-  background-image: url("./hypnotize_bg.png");
+  color: white;
+  background-image: url("./test.png");
 }
 
 .links li{
-  margin: 30px;
+  margin: 30px auto;
   font-size: 150%;
 }
 
@@ -45,7 +37,7 @@ body {
 
 .links a{
   background: red;
-  color: white;
+  color: black;
   border: 1px solid currentColor;
   padding: 3px;
   border-radius: 10px;
