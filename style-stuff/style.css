@@ -38,8 +38,7 @@ body {
 }
 
 .links li{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin: 20px;
 }
 
 .links ul{
