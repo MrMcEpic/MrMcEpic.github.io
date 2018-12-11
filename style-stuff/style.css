@@ -3,6 +3,17 @@
   text-transform: capitalize;
 }
 
+.footer {
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: crimson;
+  color: white;
+  text-align: right;
+}
+
 #inttop {
   color: crimson;
   font-size: 150%;
