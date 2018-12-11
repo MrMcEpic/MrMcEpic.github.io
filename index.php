@@ -6,6 +6,7 @@
   </head>
   <body>
       <div id=inttop><h1>Hello</h1></div>
+      <?php include 'home.php';?>
       <h2 class="formal">You've found us</h2>
       <h3>Please use a link to direct yourself</h3>
       <div id=links class="links">
