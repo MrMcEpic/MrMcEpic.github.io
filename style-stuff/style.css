@@ -3,24 +3,29 @@
   text-transform: capitalize;
 }
 
-.footer {
-  font-family: 'Roboto', sans-serif;
+footer {
   position: fixed;
+  bottom: 0; 
   left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: crimson;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
   color: white;
-  text-align: right;
+  background-color: crimson;
+  width: 100%;
 }
 
-#inttop {
+footer p{
+  margin: 0;
+}
+
+header {
   color: crimson;
   font-size: 150%;
   border: 14px solid currentColor;
-  border-radius: 3px;
   width: 150px;
-  margin: 0 auto;
+  height: 120px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 body {
